@@ -35,7 +35,7 @@ ZAI_DEFAULT_BASE = "https://api.z.ai/api/anthropic/v1"
 # Google AI Studio Gemini API OpenAI-compat layer (not Vertex AI).
 GEMINI_DEFAULT_BASE = "https://generativelanguage.googleapis.com/v1beta/openai/"
 GROQ_DEFAULT_BASE = "https://api.groq.com/openai/v1"
-CEREBRAS_DEFAULT_BASE = "http://109.199.119.253:20128/v1" #"http://localhost:8642/v1"
+CEREBRAS_DEFAULT_BASE = "http://localhost:20128/v1" #"http://localhost:8642/v1"
 
 
 @dataclass(frozen=True, slots=True)
